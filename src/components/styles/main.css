@@ -1,0 +1,134 @@
+/* styles/main.css */
+.main-content {
+    padding: 20px;
+}
+
+.ads-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-top: -450px;
+}
+
+/* Остальные стили из вашего main.css */
+body.main-page {
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 140px;
+    height: 120px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    margin: 0; 
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.hat {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    background-color: white; 
+    height: 72px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.search-box {
+    width: 261px; 
+    height: 36px; 
+    background-color: #f0f0f0; 
+    border-radius: 18px; 
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.search-input {
+    background-color: #f0f0f0; 
+    width: calc(100% - 40px); 
+    height: 100%; 
+    border: none; 
+    padding: 0 20px; 
+    font-size: 16px; 
+    outline: none; 
+    border-radius: 18px; 
+}
+
+.search-icon {
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px; 
+}
+
+.roadstar {
+    color: white;
+    font-size: 24px;
+    margin-left: 605px;
+    margin-top: -30px;
+    color: black;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.username {
+    color: white;
+    margin-right: 10px; 
+    margin-left: 1100px;
+    margin-top: -25px;
+    color: black;
+}
+
+.avatar {
+    width: 40px; 
+    height: 40px; 
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.left-nav-block {
+    width: 200px; 
+    height: 420px; 
+    background-color: white;
+    position: relative; 
+    margin-top: 100px;
+}
+
+.nav-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav-list li {
+    padding: 8px 0; 
+    cursor: pointer; 
+    margin-bottom: 10px;
+    color: black;
+}
+
+.nav-list li img {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+.nav-list li:hover {
+    background-color: #333; 
+}

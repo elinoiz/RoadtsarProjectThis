@@ -1,0 +1,170 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body.home-page {
+    margin: 0;
+    padding: 0;
+    background-color: #141618;
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: center; /* Центрирование заголовка */
+}
+
+.heading {
+    background-color: #1E1F25;
+    height: 80px; /* Изменено на 130px для соответствия размеру логотипа */
+    width: 100%;
+    display: flex;
+    align-items: center; /* Выравнивание содержимого по вертикали */
+}
+
+.logo-home {
+    display: flex;
+    align-items: center; /* Выравнивание логотипа и текста по вертикали */
+    margin: auto; /* Выравнивание логотипа по центру */
+    margin-left:610px;
+    margin-top: 6px;
+}
+
+.icon-logo {
+    height: 80px;
+    width: 80px;
+    margin-right: -28px; /* Уменьшен отступ между логотипом и текстом */
+    margin-top:-31px;
+    margin-left: -20px;
+}
+
+.text-logo {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif; /* Применение шрифта Poppins */
+    margin: 0; /* Убираем внешние отступы для параграфа */
+    color: aliceblue;
+}
+
+
+.svg-container {
+    position: absolute;
+    top: 30px;
+    left: 750px;
+    width: 700px;
+    height: 700px;
+    
+    border-image-source: linear-gradient(90deg, rgba(154, 195, 33, 0.1) 0%, rgba(154, 195, 33, 0.8) 48.42%, rgba(154, 195, 33, 0.1) 100%);
+
+
+}
+
+.svg-image {
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    top: 130px;
+    left: 165px;
+    width: 190px;
+    height: 36px;
+    gap: 10px;
+}
+
+.sidebar-text::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: #1B70F1;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+.sidebar-text {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color:#1B70F1;
+}
+
+
+.additional-text {
+    width: 912px;
+    height: 150 px;
+    top: 327px;
+    left: 165px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    font-size: 70px; /* Уменьшение размера шрифта */
+    line-height: 60px; /* Уменьшение высоты строки */
+    letter-spacing: -1px; /* Настройка интервала между буквами */
+    color: white;
+}
+
+
+
+.register-text {
+    position: absolute;
+    width: 816px;
+    height: 64px;
+    top: 225px; 
+    left: 4px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: grey;
+}
+
+.start-button {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    bottom: 0; /* Размещение внизу блока */
+    background-color: #1B70F1; /* Цвет фона */
+    color: white; /* Цвет текста */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 56px; /* Центрирование текста по вертикали */
+    text-align: center; /* Центрирование текста по горизонтали */
+    border: none;
+    top:350px;
+}
+
+.more-button {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    bottom: 0; /* Размещение внизу блока */
+    background-color: transparent; /* Прозрачный фон */
+    border: 1px solid #1B70F1; /* Граница */
+    color: #1B70F1; /* Цвет текста */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 56px; /* Центрирование текста по вертикали */
+    text-align: center; /* Центрирование текста по горзонтали */
+    top:350px;
+    left:300px;
+}
+
+.more-button:hover {
+    background-color: #1B70F1; /* Изменение цвета фона при наведении */
+    color: white; /* Изменение цвета текста при наведении */
+}
+
+.start-button:hover {
+    background-color: transparent; /* Изменение цвета текста на прозрачный при наведении */
+    border: 1px solid #1B70F1; /* Граница */
+}
+

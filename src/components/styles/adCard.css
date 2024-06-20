@@ -1,0 +1,21 @@
+/* styles/adCard.css */
+.ad-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ad-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ad-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
